@@ -1,0 +1,74 @@
+.sphere {
+    border-radius: 50%;
+}
+
+#sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 208px;
+    width: 208px;
+    background-color: #ffffa0;
+    background: radial-gradient(#ffffa0, #ffffcb);
+    box-shadow: 0 0 51px 58px #ffffed,
+                0 0 42px 49px #ffffdc,
+                0 0 31px 37px #ffffcb;
+    z-index: 0;
+}
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1 1 1 1 #ffffff;
+}
+
+#mercury {
+    height: 2.184px;
+    width: 2.184px;
+    background-color: #6a7a80;
+}
+
+#venus {
+    height: 5.4288px;
+    width: 5.4288px;
+    background-color: #fce15a;
+}
+
+#earth {
+    height: 5.7408px;
+    width: 5.7408px;
+    background-color: #02a1f7;
+}
+
+#mars {
+    height: 2.9952px;
+    width: 2.9952px;
+    background-color: #c1540b;
+}
+
+#jupiter {
+    height: 64.0848px;
+    width: 64.0848px;
+    background-color: #938969;
+}
+
+#saturn {
+    height: 53.976px;
+    width: 53.976px;
+    background-color: #d3ba69;
+}
+
+#uranus {
+    height: 22.9px;
+    width: 22.9px;
+    background-color: #b0f2fc;
+}
+
+#neptune {
+    height: 22.2144px;
+    width: 22.2144px;
+    background-color: #0b63c1;
+}
